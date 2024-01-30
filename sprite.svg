@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="main__circle" viewBox="0 0 450 450">
+        <circle r="100" cx="150" cy="150" fill="#ffffff" />
+    </symbol>
+
+    <symbol id="ear__left" viewBox="36.5 63.5 150 75">
+        <ellipse rx="15" ry="11" cx="60" cy="60" transform="rotate(-45, 55, 55)" fill="#4a4a4a" />
+    </symbol>
+    <symbol id="ear__right" viewBox="-20.5 70.5 150 75">
+        <ellipse rx="15" ry="11" cx="60" cy="60" transform="rotate(45, 55, 55)" fill="#4a4a4a" />
+    </symbol>
+
+    <symbol id="ear__left-inside" viewBox="37 63.5 150 75">
+        <ellipse rx="6.5" ry="4.8" cx="60" cy="60" transform="rotate(-45, 55, 55)" fill="#010101" />
+    </symbol>
+    <symbol id="ear__right-inside" viewBox="-21 70.5 150 75">
+        <ellipse rx="6.5" ry="4.8" cx="60" cy="60" transform="rotate(45, 55, 55)" fill="#010101" />
+    </symbol>
+
+    <symbol id="eye__left" viewBox="15 50 150 75">
+        <ellipse rx="10" ry="8" cx="60" cy="60" transform="rotate(90, 55, 55)" fill="#4a4a4a" />
+    </symbol>
+    <symbol id="eye__right" viewBox="-15 50 150 75">
+        <ellipse rx="10" ry="8" cx="60" cy="60" transform="rotate(90, 55, 55)" fill="#4a4a4a" />
+    </symbol>
+
+    <symbol id="eye__left-inside" viewBox="15 52 150 75">
+        <ellipse rx="3.5" ry="3.5" cx="60" cy="60" transform="rotate(90, 55, 55)" fill="#010101" />
+    </symbol>
+    <symbol id="eye__right-inside" viewBox="-15 52 150 75">
+        <ellipse rx="3.5" ry="3.5" cx="60" cy="60" transform="rotate(90, 55, 55)" fill="#010101" />
+    </symbol>
+
+    <symbol id="pupil__left" viewBox="16.5 53.5 150 75">
+        <ellipse rx="1.5" ry="1.5" cx="60" cy="60" transform="rotate(90, 55, 55)" fill="#ffffff" />
+    </symbol>
+    <symbol id="pupil__right" viewBox="-13.5 53.5 150 75">
+        <ellipse rx="1.5" ry="1.5" cx="60" cy="60" transform="rotate(90, 55, 55)" fill="#ffffff" />
+    </symbol>
+
+    <symbol id="nose" viewBox="10 40 150 75">
+        <ellipse rx="4.5" ry="3.2" cx="60" cy="60" fill="#010101" />
+    </symbol>
+</svg>
