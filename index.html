@@ -5,28 +5,35 @@
     <title>Panda project</title>
 </head>
 <body style="background-color: #e2e2e2">
-<!--    Рекомендация по выполнению следующей работы со спрайтом:
-Нужно вынести все картинки в отдельный файл sprite.svg. Удобно пользоваться этим сервисом - https://svgsprit.es/
-Затем добавляете картинки с помощью тега use, только в атрибуте xlink:href прописываете путь до спрайта.-->
     <p>
-        <svg width="1400" height="1400" viewBox="-300 -300 1400 1400">
-            <use href="./sprite.svg#ear__left"></use>
-            <use href="./sprite.svg#ear__left-inside"></use>
-            <use href="./sprite.svg#ear__right"></use>
-            <use href="./sprite.svg#ear__right-inside"></use>
-
-            <use href="./sprite.svg#main__circle"></use>
-
-            <use href="./sprite.svg#eye__left"></use>
-            <use href="./sprite.svg#eye__right"></use>
-            <use href="./sprite.svg#eye__left-inside"></use>
-            <use href="./sprite.svg#eye__right-inside"></use>
-            <use href="./sprite.svg#eye__left-inside"></use>
-            <use href="./sprite.svg#eye__right-inside"></use>
-            <use href="./sprite.svg#pupil__left"></use>
-            <use href="./sprite.svg#pupil__right"></use>
-
-            <use href="./sprite.svg#nose"></use>
+        <svg width="1400" height="1400" viewBox="0 0 1400 1400">
+            <!--ears-->
+            <g fill="#4a4a4a">
+                <ellipse rx="90" ry="70" cx="25" cy="340" transform="rotate(-53, 0, 0)"/>
+                <ellipse rx="90" ry="70" cx="515" cy="-375" transform="rotate(53, 0, 0)"/>
+            </g>
+            <!--inside ear-->
+            <g fill="#010101">
+                <ellipse rx="43" ry="35" cx="75" cy="335" transform="rotate(-45, 0, 0)"/>
+                <ellipse rx="43" ry="35" cx="560" cy="-300" transform="rotate(45, 0, 0)"/>
+            </g>
+            <circle r="200" cx="450" cy="300" fill="#ffffff"/>
+            <!--eyes-->
+            <g fill="#4a4a4a">
+                <ellipse rx="62" ry="48" cx="300" cy="-350" transform="rotate(90, 0, 0)"/>
+                <ellipse rx="62" ry="48" cx="300" cy="-550" transform="rotate(90, 0, 0)"/>
+            </g>
+            <!--inside eyes and nose-->
+            <g fill="#010101">
+                <circle r="23" cx="350" cy="290"/>
+                <circle r="23" cx="550" cy="290"/>
+                <ellipse rx="33" ry="25" cx="450" cy="360" fill="#010101"/>
+            </g>
+            <!--pupils-->
+            <g fill="#ffffff">
+                <circle r="10" cx="340" cy="285"/>
+                <circle r="10" cx="540" cy="285"/>
+            </g>
         </svg>
     </p>
 
